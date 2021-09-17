@@ -1,249 +1,53 @@
 {
-    "materiais": [
+    "contatos": [
         {
             "id": 1,
-            "descricao": "Caneta marcadora para quadro branco, recarregável, cor preta",
-            "material": "123 11111 2458 1",
-            "quantidade": 1,
-            "unidade": "UN",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
+            "nome": "Lucas Castro Bachega",
+            "email": "lucas.cbachega@gmail.com",
+            "phone": "(16)993792086",
+            "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         },
         {
             "id": 2,
-            "descricao": "Toner para impressora Brother DCP7020 e fax Intellifax 2820",
-            "material": "456 22222 8745 2",
-            "quantidade": 2,
-            "unidade": "UN",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
+            "nome": "Daniel Almeida da silva",
+            "email": "daniel.almeidas@gmail.com",
+            "phone": "(16)991352315",
+            "avatar": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         },
         {
             "id": 3,
-            "descricao": "Lápis preto, nº 2",
-            "material": "789 33333 6254 3",
-            "quantidade": 3,
-            "unidade": "PC",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
+            "nome": "Gisele Aparecida Silva",
+            "email": "gisele.aparecida@gmail.com",
+            "phone": "(16)112343445",
+            "avatar": "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         },
-        {
+       {
             "id": 4,
-            "descricao": "Papel contact, incolor, transparente, rolo",
-            "material": "101 44444 1245 4",
-            "quantidade": 4,
-            "unidade": "PC",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
+            "nome": "Matehus Castro Bachega",
+            "email": "matheus.bachega@gmail.com",
+            "phone": "(16)998563423",
+            "avatar": "https://images.pexels.com/photos/2078265/pexels-photo-2078265.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         },
         {
             "id": 5,
-            "descricao": "Pasta arquivo, tipo catálogo",
-            "material": "102 55555 6985 5",
-            "quantidade": 5,
-            "unidade": "UN",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
+            "nome": "Laura Castro Bachega",
+            "email": "laura.bachega@gmail.com",
+            "phone": "(16)334565645",
+            "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         },
-        {
+       {
             "id": 6,
-            "descricao": "Refil tinta cor azul para pincel marcador",
-            "material": "345 66666 2145 5",
-            "quantidade": 6,
-            "unidade": "PC",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
+            "nome": "Rafel Martins",
+            "email": "rafael.cbachega@gmail.com",
+            "phone": "(16)22343456",
+            "avatar": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         },
         {
             "id": 7,
-            "descricao": "Papel Vergê várias cores, 120 gr pct 50 folhas",
-            "material": "165 77777 7458 6",
-            "quantidade": 7,
-            "unidade": "UN",
-            "contaRazao": "36210264",
-            "centroCusto": "110110180",
-            "selected": false
-        }
-    ],
-    "lotes": [
-        {
-            "id": 1,
-            "descricao": "Papel contact../ Toner para i../ Fita para imp..",
-            "data": "Quin,20 de junho às 13:33 hrs",
-            "materiais": [
-                {
-                    "id": 785,
-                    "descricao": "Papel contact, incolor, transparente, rolo",
-                    "material": "123 11111 2458 1",
-                    "quantidade": 1,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 126,
-                    "descricao": "Toner para impressora HP 1300",
-                    "material": "456 22222 8745 2",
-                    "quantidade": 2,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": false
-                },
-                {
-                    "id": 456,
-                    "descricao": "Fita para impressora Epson FX1170",
-                    "material": "789 33333 6254 3",
-                    "quantidade": 3,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 765,
-                    "descricao": "Etiqueta 3 col. 107 x 23,4mm em formulário caixa c/ 18.000",
-                    "material": "101 44444 1245 4",
-                    "quantidade": 4,
-                    "unidade": "PC",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 2039,
-                    "descricao": "Capa de papelão para processo SF qualquer natureza",
-                    "material": "102 55555 6985 5",
-                    "quantidade": 5,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                }
-            ],
-            "quantidade": 5,
-            "baixado": true,
-            "error": true,
-            "errorMsg": ""
-        },
-        {
-            "id": 2,
-            "descricao": "Esponja dupla../ Limpador instantâneo../ Papel toalha..",
-            "data": "Quin,20 de junho às 13:43 hrs",
-            "materiais": [
-                {
-                    "id": 4323,
-                    "descricao": "Esponja dupla face para limpeza",
-                    "material": "123 11111 2458 1",
-                    "quantidade": 1,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 3214,
-                    "descricao": "Limpador instantâneo multi-uso frasco com 500m",
-                    "material": "456 22222 8745 2",
-                    "quantidade": 2,
-                    "unidade": "FR",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 3213,
-                    "descricao": "Papel toalha branco tipo americano 3 dobras 26 x 23cm",
-                    "material": "789 33333 6254 3",
-                    "quantidade": 3,
-                    "unidade": "FD",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 7546,
-                    "descricao": "Fio 6mm cabinho flexível anti-chama - rolo com 100m",
-                    "material": "101 44444 1245 4",
-                    "quantidade": 4,
-                    "unidade": "RL",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": true
-                },
-                {
-                    "id": 44328,
-                    "descricao": "Pasta arquivo, tipo catálogo",
-                    "material": "102 55555 6985 5",
-                    "quantidade": 5,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado": false
-                }
-            ],
-            "quantidade": 5,
-            "baixado": true,
-            "error": true,
-            "errorMsg": ""
-        },
-        {
-            "id": 3,
-            "descricao": "Parafuso auto-ata../ Caneta marcadora../ T de PVC para cola..",
-            "data": "Quin,20 de junho às 13:53 hrs",
-            "materiais": [
-                {
-                    "id": 7677,
-                    "descricao": "Parafuso auto-atarrachante cabeça chata 5,5 x 50mm cx c/100",
-                    "material": "123 11111 2458 1",
-                    "quantidade": 1,
-                    "unidade": "PC",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado":true
-                },
-                {
-                    "id": 76565,
-                    "descricao": "Caneta marcadora para quadro branco, recarregável, cor azul",
-                    "material": "456 22222 8745 2",
-                    "quantidade": 2,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado":true
-                },
-                {
-                    "id": 65463,
-                    "descricao": "T de PVC para cola e rosca para cano de 3/4 cor marrom",
-                    "material": "789 33333 6254 3",
-                    "quantidade": 3,
-                    "unidade": "PC",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado":true
-                },
-                {
-                    "id": 65464,
-                    "descricao": "Vedante de couro para torneira 1/2",
-                    "material": "101 44444 1245 4",
-                    "quantidade": 4,
-                    "unidade": "UN",
-                    "contaRazao": "36210264",
-                    "centroCusto": "110110180",
-                    "baixado":true
-                }
-            ],
-            "quantidade": 4,
-            "baixado": true,
-            "error": false,
-            "errorMsg": ""
+            "nome": "Reginaldo Pereira",
+            "email": "reginaldo.pereira@gmail.com",
+            "phone": "(16)992343847",
+            "avatar": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         }
     ]
 }
